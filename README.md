@@ -66,5 +66,11 @@
 
 ```mermaid
 graph LR;
-  first commit -->  add description to README -->  add desc v2 -->  добавить блок кода mermaid --> добавить блок кода python --> добавить описание git log, удалить блоки кода mermaid и python --> добавить описание статусов команды git status --> добавить блок кода mermaid;
+  A(first commit) -->  B(add description to README)
+  B --> C(add desc v2) 
+  C --> D(добавить блок кода mermaid)
+  D --> E(добавить блок кода python)
+  E --> F(добавить описание git log, удалить блоки кода mermaid и python)
+  F --> G(добавить описание статусов команды git status)
+  G --> I(добавить блок кода mermaid);
 ```
