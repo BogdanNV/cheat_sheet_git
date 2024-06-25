@@ -66,3 +66,10 @@ graph LR;
 %% стрелка без текста для примера: 
   A --> B;
 ```
+
+```python
+def print_hello():
+    print("hello")
+
+print_hello()
+```
